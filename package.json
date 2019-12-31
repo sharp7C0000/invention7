@@ -1,0 +1,45 @@
+{
+  "name": "invention7",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/sharp7C0000/invention7.git",
+  "license": "MIT",
+  "scripts": {
+    "start": "node ./server",
+    "start-dev": "webpack-dev-server --config ./webpack.config.dev.js",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.4.0",
+    "inert": "^5.1.3"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "7.7.7",
+    "@babel/preset-stage-0": "^7.0.0",
+    "@babel/preset-stage-1": "^7.0.0",
+    "@babel/preset-stage-2": "^7.0.0",
+    "@babel/preset-stage-3": "^7.0.0",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.0",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.9.0",
+    "postcss": "^7.0.25",
+    "postcss-loader": "^3.0.0",
+    "postcss-preset-env": "^6.7.0",
+    "style-loader": "^1.1.2",
+    "tailwindcss": "^1.1.4",
+    "vue": "^2.6.11",
+    "vue-loader": "^15.8.3",
+    "vue-router": "^3.1.3",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "vuex": "^3.1.2",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10",
+    "webpack-dev-server": "^3.10.1",
+    "webpack-merge": "^4.2.2",
+    "@babel/plugin-syntax-dynamic-import": "^7.7.4"
+  }
+}
